@@ -64,7 +64,7 @@ npm start
 http://localhost:3000
 ```
 
-## 📌 Como Usar
+##  Como Usar
 
 1. Adicionar novo item:
    - Insira a URL de uma imagem válida
@@ -109,5 +109,5 @@ Contribuições são bem-vindas! Siga estes passos:
 
 Seu Nome - spedmilson18@gmail.com
 
-Link do Projeto: [https://github.com/seu-usuario/my-app](https://github.com/seu-usuario/my-app)
+Link do Projeto: https://github.com/Edmilson-999/My-app.git
 
