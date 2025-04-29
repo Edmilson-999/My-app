@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# My Image App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[App Screenshot](./public/MyApp.png)
 
-## Available Scripts
+## 📝 Descrição
 
-In the project directory, you can run:
+O My App é um aplicativo web React que permite gerenciar uma coleção de itens com imagens. Os principais recursos incluem:
 
-### `npm start`
+- Adicionar novos itens com URL de imagem e nome
+- Pesquisar itens por nome
+- Visualizar imagens em formato circular
+- Editar e remover itens existentes
+- Armazenamento persistente no LocalStorage do navegador
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Barra de Pesquisa: Filtra itens em tempo real conforme digitação
+- Visualização de Imagem**: Exibe imagem selecionada em formato circular
+- CRUD Completo:
+  - Criar novos itens
+  - Ler/visualizar itens existentes
+  - Atualizar itens
+  - Deletar itens
+- Persistência: Dados salvos automaticamente no LocalStorage
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React (Functional Components, Hooks)
+- LocalStorage (Persistência de dados)
+- CSS Modules (Estilização)
+- ES6+ (JavaScript Moderno)
 
-### `npm run build`
+##  Como Executar o Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14 ou superior)
+- npm ou yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instalação
 
-### `npm run eject`
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/my-app.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Acesse a pasta do projeto:
+```bash
+cd my-image-manager
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Instale as dependências:
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Inicie o servidor de desenvolvimento:
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Acesse no navegador:
+```
+http://localhost:3000
+```
 
-## Learn More
+## 📌 Como Usar
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Adicionar novo item:
+   - Insira a URL de uma imagem válida
+   - Digite um nome para o item
+   - Clique em "Adicionar"
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Pesquisar itens:
+   - Digite na barra de pesquisa para filtrar
 
-### Code Splitting
+3. Editar item:
+   - Selecione um item na lista
+   - Modifique a URL ou nome
+   - Clique em "Atualizar"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Remover item:
+   - Selecione um item na lista
+   - Clique em "Remover"
 
-### Analyzing the Bundle Size
+##  Estrutura de Arquivos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+src/
+├── components/       # Componentes reutilizáveis
+├── utils/            # Funções utilitárias
+├── App.jsx           # Componente principal
+├── App.css           # Estilos globais
+└── index.js          # Ponto de entrada
+```
 
-### Making a Progressive Web App
+##  Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contribuições são bem-vindas! Siga estes passos:
 
-### Advanced Configuration
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Seu Nome - spedmilson18@gmail.com
 
-### `npm run build` fails to minify
+Link do Projeto: [https://github.com/seu-usuario/my-app](https://github.com/seu-usuario/my-app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
